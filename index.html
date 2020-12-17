@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <div class="icon">
+            <img src="./images/logo.svg">
+        </div>
+        <div class="header-text">
+            <p>Hi,Life starts here</p>
+        </div>
+        <nav>
+            <div class="hamburger">
+                <img src="img/menu-hamburger.svg" onclick="showMenu()">
+            </div>
+            <div class="menu" id="menu">
+                <ul>
+                    <li><a href="#">Rent</a></li>
+                    <li><a href="#">Buy</a></li>
+                    <li><a href="#">Lease</a></li>
+                    <li><a href="#">Sell</a></li>
+                    <li><a href="#">Repair</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="hero-image">
+                <img src="./images/illustration-1.svg">
+            </div>
+            <div class="hero-info">
+                <h1>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </h1>
+                <h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </h2><br>
+                <input type="email"><br><br>
+                <button>
+                    Get Started
+                </button>
+            </div>
+
+        </div>
+        <div class="content">
+            <div class="content-image">
+                <img src="images/illustration-2.svg">
+            </div>
+            <div class="content-info">
+                <h2>
+                    Lorem ipsum dolor sit amet consectetur.
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adiinventore temporibus? Modi aliquid atque quas nostrum delectus.pisicing elit. Facere id quos, quia dolore nesciunt eius, 
+                    ea sunt tempora, non pariatur minima laudantium 
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adiinventore temporibus? Modi aliquid atque quas nostrum delectus.pisicing elit. Facere id quos, quia dolore nesciunt eius, 
+                    ea sunt tempora, non pariatur minima laudantium 
+                </p>
+                <div class="content-info-card">
+                    <div class="content-info-card-text">
+                        <p>Lorem ipsum dolor sit amet consem, quasi? Deleniti, 
+                            molestias aliquam molestiae eore alias dolore.</p>
+                    </div>
+                    <div class="content-info-card-avatar">
+                        <div class="avatar-image">
+                            <img src="./images/avatar-testimonial.jpg">
+                        </div>
+                        <div>
+                            <p>John John</p>
+                            <p>Designer</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script>
+        function showMenu(){
+        x=document.getElementById("menu");
+          if (x.style.display === "block") {
+           
+            x.style.display="none";
+           
+          } else {
+            x.style.display="block";
+         
+          }
+        }
+        
+    </script>
+</body>
+</html>
