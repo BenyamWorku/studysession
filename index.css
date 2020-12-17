@@ -1,0 +1,130 @@
+*{
+    margin:0;
+}
+
+ header{
+    display:flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    width:100 vw;
+    margin:20px 10px;
+}
+nav{
+    display: flex;
+  
+}
+.menu{
+display:none; 
+position: absolute;
+right:0;
+top:75px;
+
+min-width: 100%;
+background-color: rgb(136, 156, 199);
+
+
+}
+
+.menu li{
+    list-style-type: none;
+}
+.menu li a{
+    text-decoration: none;
+}
+
+.hero-image img{
+width:100%;
+margin-top:25px;
+}
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-info input{
+    min-width:80%;
+}
+
+.hero-info button{
+    min-width:80%; 
+    background-color: blue;   
+}
+.content-image img{
+    width:100%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-info-card{
+    background-color: cornsilk;
+    width: 80%;
+    border:1px solid black;
+    box-shadow: 20px 20px 20px #888888;
+    padding: 20px;
+}
+.content-info-card-avatar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+}
+.avatar-image img{
+    max-width: 15vw;
+    border:1px solid white;
+    border-radius: 50%;
+}
+
+
+ @media(min-width:590px){
+     .icon-img{
+         z-index: 2;
+       } 
+       .icon-text{
+         text-align: right;
+     } 
+   .hamburger img{
+          display:none;
+      }
+      header{
+          flex-direction: row;
+      }
+    
+      .menu{
+        
+          display: block;
+          background-color: white;
+          
+      }
+   .menu ul{
+         display:flex;
+         justify-content: flex-end;
+         flex-wrap:nowrap;
+     }
+    .menu ul li a:hover{
+         color:white;
+         background-color: pink;
+      }
+     .menu ul li a{
+        font-size:calc(30px + 1vw);
+        background-color: rgb(255, 223, 251);
+        margin:0 5px;
+            
+     }    
+     
+    
+
+ } 
